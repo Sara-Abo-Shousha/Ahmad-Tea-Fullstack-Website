@@ -1,0 +1,183 @@
+@import'./fonts.css';
+
+.btnn {
+   background-color:white;
+   color: #222;
+   padding: .5em 1em;
+   outline: none;
+   position: relative;
+   cursor: pointer;
+  border-width: 1px;
+  border-color: #062e23;
+   font-family: 'Futura LT Book';
+ }
+ .btn{
+    outline: none;
+ }
+ .btn:focus {
+   box-shadow: none;
+ }
+.btnn.btn-background-slide::before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   z-index: -1;
+   background-color: #062e23;
+   outline: none;
+   transition: transform 300ms ease-in-out;
+   transform: scaleX(0);
+   transform-origin: left;
+ }
+ 
+ .btnn.btn-background-slide:hover::before,
+ .btnn.btn-background-slide:focus::before {
+   transform: scaleX(1);
+ }
+ 
+ .btnn.btn-background-slide {
+   transition: color 300ms ease-in-out;
+   z-index: 1;
+   outline: none;
+   border-color: #062e23;
+ }
+ 
+ button:disabled,
+button[disabled]{
+   background-color: #062e23;
+   color:white;
+
+
+}
+ .btnn.btn-background-slide:hover,
+ .btnn.btn-background-slide:focus {
+   color: white;
+ }
+.futura_light{
+   font-family: 'Futura LT Light';
+}
+.futura_meduim{
+   font-family: 'Futura LT Book';
+}
+.futura_regular{
+   font-family: 'Futura LT Regular';
+}
+.futura_heavy{
+   font-family: 'Futura LT Heavy';
+}
+
+
+.header2{
+   height: 30px;
+  
+   margin-bottom:100px;
+   background-color: #0E4535;
+ 
+}
+.color-primary{
+    color: whitesmoke;}
+  
+ .color-primary-bg{
+        color: whitesmoke;}
+        
+.color-secondary{
+   color :#0E4535;
+}
+.color-secondary-bg{
+    background:#0E4535;
+ color: whitesmoke;
+ }
+ .dark-shade{
+    background:#062e23;
+    color: whitesmoke;
+ }
+ 
+ #myVideo {
+   height: 602px;
+   width: 1920px;
+
+   object-fit:cover;
+ }
+ #poducts{
+   display: block;
+   width:230px;
+    height:230px;
+ }
+ /*  top sale template   */
+ #top-sale .owl-carousel .item .product a {
+   overflow: hidden;
+}
+#top-sale .owl-carousel .item .product img {
+   transition: transform 0.5s ease;
+}
+#top-sale .owl-carousel .item .product img:hover {
+   transform: scale(1.1);
+}
+#top-sale .owl-carousel .owl-nav button {
+   position: absolute;
+   top: 30%;
+   outline: none;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev {
+   left: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev span,
+#top-sale .owl-carousel .owl-nav button.owl-next span {
+   font-size: 35px;
+   color: #003859;
+   padding: 0 1rem;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev span {
+   margin-left: -4rem;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next {
+   right: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next span {
+   margin-right: -4rem;
+}
+ /*  top sale template   */
+#new-comers .owl-carousel .item .product a {
+   overflow: hidden;
+}
+#new-comers .owl-carousel .item .product img {
+   transition: transform 0.5s ease;
+}
+#new-comers .owl-carousel .item .product img:hover {
+   transform: scale(1.1);
+}
+#new-comers .owl-carousel .owl-nav button {
+   position: absolute;
+   top: 30%;
+   outline: none;
+}
+#new-comers .owl-carousel .owl-nav button.owl-prev {
+   left: 0;
+}
+#new-comers .owl-carousel .owl-nav button.owl-prev span,
+#new-comers .owl-carousel .owl-nav button.owl-next span {
+   font-size: 35px;
+   color: #003859;
+   padding: 0 1rem;
+}
+#new-comers .owl-carousel .owl-nav button.owl-prev span {
+   margin-left: -4rem;
+}
+#new-comers .owl-carousel .owl-nav button.owl-next {
+   right: 0;
+}
+#new-comers .owl-carousel .owl-nav button.owl-next span {
+   margin-right: -4rem;
+}
+
+
+ /*   Special Price Section Template */
+#special-price .grid .grid-item {
+   margin-right: 1.2rem;
+   margin-top: 1rem;
+}
+
+
+  

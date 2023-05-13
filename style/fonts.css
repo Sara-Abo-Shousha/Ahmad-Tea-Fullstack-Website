@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'Futura LT Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('../Futura LT Regular'), url('../resources/fonts/FuturaLT.woff') format('woff');
+    
+    }
+    
+
+    @font-face {
+    font-family: 'Futura LT Book';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura LT Book'), url('../resources/fonts/FuturaLT-Book.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Futura LT Oblique';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura LT Oblique'), url('../resources/fonts/FuturaLT-Oblique.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Futura LT BookOblique';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura LT BookOblique'), url('../resources/fonts/FuturaLT-BookOblique.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Futura LT Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura LT Light'), url('../resources/fonts/FuturaLT-Light.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Futura LT CondensedLight';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura LT CondensedLight'), url('../resources/fonts/FuturaLT-CondensedLight.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Futura LT LightOblique';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura LT LightOblique'), url('../resources/fonts/FuturaLT-LightOblique.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Futura LT CondensedLightObl';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura LT CondensedLightObl'), url('../resources/fonts/FuturaLT-CondensedLightObl.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Futura LT Condensed';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura LT Condensed'), url('../resources/fonts/FuturaLT-Condensed.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Futura LT CondensedOblique';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura LT CondensedOblique'), url('../resources/fonts/FuturaLT-CondensedOblique.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Futura LT ExtraBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura LT ExtraBold'), url('../resources/fonts/FuturaLT-ExtraBold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Futura LT Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura LT Bold'), url('../resources/fonts/FuturaLT-Bold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Futura LT CondensedBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura LT CondensedBold'), url('../resources/fonts/FuturaLT-CondensedBold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Futura LT CondensedExtraBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura LT CondensedExtraBold'), url('../resources/fonts/FuturaLT-CondensedExtraBold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Futura LT ExtraBoldOblique';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura LT ExtraBoldOblique'), url('../resources/fonts/FuturaLT-ExtraBoldOblique.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Futura LT BoldOblique';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura LT BoldOblique'), url('../resources/fonts/FuturaLT-BoldOblique.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Futura LT CondExtraBoldObl';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura LT CondExtraBoldObl'), url('../resources/fonts/FuturaLT-CondExtraBoldObl.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Futura LT CondensedBoldOblique';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura LT CondensedBoldOblique'), url('../resources/fonts/FuturaLT-CondensedBoldOblique.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Futura LT Heavy';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura LT Heavy'), url('../resources/fonts/FuturaLT-Heavy.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Futura LT HeavyOblique';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura LT HeavyOblique'), url('../resources/fonts/FuturaLT-HeavyOblique.woff') format('woff');
+    }
