@@ -1,0 +1,152 @@
+@font-face {
+	font-family: 'Futura LT Regular';
+	font-style: normal;
+	font-weight: normal;
+	src: local('../Futura LT Regular'), url('../resources/fonts/FuturaLT.woff') format('woff');
+	
+	}
+	
+  
+	@font-face {
+	font-family: 'Futura LT Book';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Futura LT Book'), url('../resources/fonts/FuturaLT-Book.woff') format('woff');
+	}
+	
+  
+	@font-face {
+	font-family: 'Futura LT Oblique';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Futura LT Oblique'), url('../resources/fonts/FuturaLT-Oblique.woff') format('woff');
+	}
+	
+  
+	@font-face {
+	font-family: 'Futura LT BookOblique';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Futura LT BookOblique'), url('../resources/fonts/FuturaLT-BookOblique.woff') format('woff');
+	}
+	
+  
+	@font-face {
+	font-family: 'Futura LT Light';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Futura LT Light'), url('../resources/fonts/FuturaLT-Light.woff') format('woff');
+	}
+	
+  
+	@font-face {
+	font-family: 'Futura LT CondensedLight';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Futura LT CondensedLight'), url('../resources/fonts/FuturaLT-CondensedLight.woff') format('woff');
+	}
+	
+  
+	@font-face {
+	font-family: 'Futura LT LightOblique';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Futura LT LightOblique'), url('../resources/fonts/FuturaLT-LightOblique.woff') format('woff');
+	}
+	
+  
+	@font-face {
+	font-family: 'Futura LT CondensedLightObl';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Futura LT CondensedLightObl'), url('../resources/fonts/FuturaLT-CondensedLightObl.woff') format('woff');
+	}
+	
+  
+	@font-face {
+	font-family: 'Futura LT Condensed';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Futura LT Condensed'), url('../resources/fonts/FuturaLT-Condensed.woff') format('woff');
+	}
+	
+  
+	@font-face {
+	font-family: 'Futura LT CondensedOblique';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Futura LT CondensedOblique'), url('../resources/fonts/FuturaLT-CondensedOblique.woff') format('woff');
+	}
+	
+  
+	@font-face {
+	font-family: 'Futura LT ExtraBold';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Futura LT ExtraBold'), url('../resources/fonts/FuturaLT-ExtraBold.woff') format('woff');
+	}
+
+#Header {
+    position:absolute;
+    top:0px;
+    width:100%;
+    background-color: white;
+   padding: 20px;
+    margin:-15px;
+    z-index:1;
+    
+}
+
+.logo
+{
+	width:125px;
+	height:67;
+	padding-top:30px;
+	padding-left: 200px;
+}
+
+.menubt
+{
+position:relative;
+	margin-left:20px;
+	margin-right:20px;
+	padding-bottom:10px;
+	text-decoration:none;
+	font-family: 'Futura LT Book';
+
+	font-weight: bold;
+	color:black;
+	font-size: 1.2em;
+}
+
+#shopbt
+{
+	color:green;
+}
+
+.menubt:hover {
+    border-bottom: 3px solid;
+    border-bottom-width: 50%;
+    animation: hover;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+	 -webkit-animation: hover;
+	 -webkit-animation-duration: 0.2s;
+	 -webkit-animation-fill-mode: forwards;
+}
+@keyframes hover {
+    from {color: black; border-bottom: 0px solid;}
+    to {color: green; border-bottom: 4px solid;}
+}
+
+@-webkit-keyframes hover {
+   from {color: black; border-bottom: 0px solid;}
+    to {color: green; border-bottom: 4px solid;}
+}
+div#float
+{
+	float:right;
+	position:relative;
+	bottom: 45px;
+	padding-right: 200px;
+}

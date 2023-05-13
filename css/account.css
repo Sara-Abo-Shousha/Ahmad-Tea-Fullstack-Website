@@ -1,0 +1,574 @@
+@font-face {
+  font-family: 'Futura LT Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('../Futura LT Regular'), url('../resources/fonts/FuturaLT.woff') format('woff');
+  
+  }
+  
+
+  @font-face {
+  font-family: 'Futura LT Book';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Futura LT Book'), url('../resources/fonts/FuturaLT-Book.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Futura LT Oblique';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Futura LT Oblique'), url('../resources/fonts/FuturaLT-Oblique.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Futura LT BookOblique';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Futura LT BookOblique'), url('../resources/fonts/FuturaLT-BookOblique.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Futura LT Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Futura LT Light'), url('../resources/fonts/FuturaLT-Light.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Futura LT CondensedLight';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Futura LT CondensedLight'), url('../resources/fonts/FuturaLT-CondensedLight.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Futura LT LightOblique';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Futura LT LightOblique'), url('../resources/fonts/FuturaLT-LightOblique.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Futura LT CondensedLightObl';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Futura LT CondensedLightObl'), url('../resources/fonts/FuturaLT-CondensedLightObl.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Futura LT Condensed';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Futura LT Condensed'), url('../resources/fonts/FuturaLT-Condensed.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Futura LT CondensedOblique';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Futura LT CondensedOblique'), url('../resources/fonts/FuturaLT-CondensedOblique.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Futura LT ExtraBold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Futura LT ExtraBold'), url('../resources/fonts/FuturaLT-ExtraBold.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Futura LT Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Futura LT Bold'), url('../resources/fonts/FuturaLT-Bold.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Futura LT CondensedBold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Futura LT CondensedBold'), url('../resources/fonts/FuturaLT-CondensedBold.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Futura LT CondensedExtraBold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Futura LT CondensedExtraBold'), url('../resources/fonts/FuturaLT-CondensedExtraBold.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Futura LT ExtraBoldOblique';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Futura LT ExtraBoldOblique'), url('../resources/fonts/FuturaLT-ExtraBoldOblique.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Futura LT BoldOblique';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Futura LT BoldOblique'), url('../resources/fonts/FuturaLT-BoldOblique.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Futura LT CondExtraBoldObl';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Futura LT CondExtraBoldObl'), url('../resources/fonts/FuturaLT-CondExtraBoldObl.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Futura LT CondensedBoldOblique';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Futura LT CondensedBoldOblique'), url('../resources/fonts/FuturaLT-CondensedBoldOblique.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Futura LT Heavy';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Futura LT Heavy'), url('../resources/fonts/FuturaLT-Heavy.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Futura LT HeavyOblique';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Futura LT HeavyOblique'), url('.0./resources/fonts/FuturaLT-HeavyOblique.woff') format('woff');
+  }
+
+  body {
+    background: #f6f5f7;
+    overflow-x: hidden;
+}
+
+  h2
+  {
+    font-family: 'Futura LT Heavy';
+    width:50%;
+    margin: 30px auto;
+  }
+
+  .container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    margin: 100px auto;
+    overflow: hidden;
+    width: 1080px;
+    max-width: 100%;
+    min-height: 480px;
+}
+/* Style the tab */
+.tab {
+  float:left;
+  overflow: hidden;
+  text-align: center;
+  width:24.8%;
+  min-height: 480px;
+  z-index: -1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  margin: 20px auto 0px;
+  width:100%;
+  border-radius: 0px;
+  font-family: 'Futura LT Book';
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 20px 12px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float:right;
+  display: none;
+  width:75%;
+  text-align: center;
+  align-content: center;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.custom {
+  position: relative;
+  font-size: 13px;
+  padding: 15px;
+}
+
+input[type="file"]
+{
+  display: none;
+}
+
+label.button
+{
+  font-family: 'Futura LT Book';
+  display: inline-block;
+  width: 130px;
+  border-radius: 3px;
+}
+
+label.button:active
+{
+  border: black solid 2px;
+}
+
+.custom input, select, textarea{
+    border-radius: 0;
+    box-sizing: border-box;
+    border: none;
+    width: 230px;
+    padding: 7px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background: linear-gradient(90deg, #185222, #185222) center bottom/0 3px no-repeat, linear-gradient(90deg, #ccc, #ccc) left bottom/100% 3px no-repeat, linear-gradient(90deg, white, white) left bottom/100% no-repeat;
+    transition: background-size 0.3s ease;
+}
+textarea
+{
+  font-family: 'Futura LT Regular';
+  padding-top: 0px;
+}
+
+p{
+  position: relative;
+  right: 71px;
+  font-family: 'Futura LT Book';
+  font-size: 13px;
+  margin: 0px;
+}
+
+
+.custom .placeholder {
+    position: absolute;
+    font-family: 'Futura LT Book';
+    left: 25px;
+    top: 25px;
+    transform: translateY(-50%);
+    color: #666666;
+    transition: top 0.3s ease, color 0.3s ease, font-size 0.3s ease;
+}
+
+.custom input:valid+.placeholder,
+.custom input:focus+.placeholder {
+    top: -3px;
+    font-size: 13px;
+    color: black;
+}
+
+.custom input:valid,
+.custom input:focus {
+    background-size: 100% 3px, 100% 3px, 100%;
+}
+
+
+select:valid + .placeholder,
+select:focus + .placeholder{
+
+    top:-3px;
+    font-size: 13px;
+    color: black;
+ 
+}
+
+select:valid,
+select:focus{
+
+    
+    background-size: 100% 3px, 100% 3px, 100%;
+}
+
+textarea:valid + .placeholder,
+textarea:focus + .placeholder{
+
+    top:-3px;
+    font-size: 13px;
+    color: black;
+ 
+}
+
+textarea:valid,
+textarea:focus{
+
+    
+    background-size: 100% 3px, 100% 3px, 100%;
+}
+
+table
+{
+  margin: auto;
+}
+
+td{
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 5px;
+}
+
+.button {
+  border: 1px solid rgba(10, 59, 22, 0.6);
+  background-color: inherit;
+  color: rgb(10, 59, 22, 0.6);
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: transform 80ms ease-in;
+}
+
+.button:hover{
+  background-color: rgba(10, 59, 22, 0.6);
+  color: white;
+}
+
+.logout {
+  border: 1px solid rgba(230, 22, 57, 0.6);
+  background-color:inherit;
+  color: rgba(230, 22, 57, 0.6);
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  margin-top: 30px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: transform 80ms ease-in;
+}
+
+table.history
+{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th.history
+{
+  font-family:'Futura LT Book' ;
+  color: rgb(10, 59, 22);
+}
+
+td.history
+{
+  font-family:'Futura LT Regular' ;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  padding: 25px 10px 15px;
+}
+
+.history tr:nth-child(even){background-color: #f2f2f2;}
+
+.header2{
+  height: 160px;
+ margin-left:-15px;
+ margin-right:-15px;
+  background-color: #253626;
+
+}
+img{
+  width: 50%;
+}
+.img{
+  width: 50%;
+}
+.right{
+  text-align: right;
+}
+.left
+{
+  text-align: left;
+}
+
+.removebtn{
+  background-color: inherit;
+  border: rgb(230, 22, 57) solid 1px;
+  padding: 11px 12px;
+  font-size: 12px;
+  color: rgb(230, 22, 57);
+  font-family: 'Futura LT Book';
+  border-radius: 2px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.removebtn:hover{
+  background-color: rgb(230, 22, 57);
+  color: white;
+
+}
+
+.backbtn{
+  float:left;
+  font-size: 15px;
+  margin-left: 30px;
+  border: none;
+  background-color: inherit;
+  font-family: 'Futura LT Book';
+  cursor: pointer;
+}
+
+.backbtn:hover{
+  text-decoration: underline;
+}
+
+
+.sort {
+  display: inline-block;
+  position: relative;
+  padding: 0.67em;
+  border: none;
+  font-weight: bolder;
+  overflow: hidden;
+  text-decoration: none;
+  font-size: 16px;
+  outline: none;
+  color: rgb(10, 59, 22);
+  background: transparent;
+  font-family:'Futura LT Book' ;
+}
+
+.sort span {
+  -webkit-transition: 0s;
+  -moz-transition: 0s;
+  -o-transition: 0s;
+  transition: 0s;
+}
+
+.sort:before,
+.sort:after {
+  content: '';
+  position: absolute;
+  top: 0.67em;
+  left: 0;
+  width: 100%;
+  text-decoration: underline;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: 0s;
+  -moz-transition: 0s;
+  -o-transition: 0s;
+  transition: 0s;
+}
+
+/* :before */
+
+.sort:before {
+  content: attr(data-hover);
+  -webkit-transform: translate(-150%,0);
+  -moz-transform: translate(-150%,0);
+  -ms-transform: translate(-150%,0);
+  -o-transform: translate(-150%,0);
+  transform: translate(-150%,0);
+}
+
+/* :after */
+
+.sort:after {
+  content: attr(data-hover);
+  -webkit-transform: translate(150%,0);
+  -moz-transform: translate(150%,0);
+  -ms-transform: translate(150%,0);
+  -o-transform: translate(150%,0);
+  transform: translate(150%,0);
+}
+
+/* Span on :hover and :active */
+
+.sort:hover span,
+.sort:active span {
+  opacity: 0;
+  -webkit-transform: scale(0.3);
+  -moz-transform: scale(0.3);
+  -ms-transform: scale(0.3);
+  -o-transform: scale(0.3);
+  transform: scale(0.3);
+}
+
+/*  
+  We show :before pseudo-element on :hover 
+  and :after pseudo-element on :active 
+*/
+
+.sort:hover:before,
+.sort:active:after {
+  opacity: 1;
+  -webkit-transform: translate(0,0);
+  -moz-transform: translate(0,0);
+  -ms-transform: translate(0,0);
+  -o-transform: translate(0,0);
+  transform: translate(0,0);
+}
+
+/* 
+We hide :before pseudo-element on :active
+*/
+
+.sort:active:before {
+  -webkit-transform: translate(-150%,0);
+  -moz-transform: translate(-150%,0);
+  -ms-transform: translate(-150%,0);
+  -o-transform: translate(-150%,0);
+  transform: translate(-150%,0);
+  -webkit-transition-delay: 0s;
+  -moz-transition-delay: 0s;
+  -o-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+#srch {
+  position: relative;
+  width: 650px;
+  height: 15px;
+  font-size: 16px;
+  z-index: 1;
+  border-radius: 30px;
+  border: 2px solid #ccc;
+  background-image: url(../img/icons/magnifying-glass.svg);
+  background-size: 20px 20px;
+  background-position: 10px 9px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  margin: auto;
+  display: block;
+  outline: none;
+}

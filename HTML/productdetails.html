@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <!--Boostrap CDN-->
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Owl-carousel CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha256-UhQQ4fxEeABh4JrcmAJ1+16id/1dnlOEVCFOxDef9Lw=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha256-kksNxjDRxd/5+jGurZUJd1sdR2v+ClrCl3svESBaJqw=" crossorigin="anonymous" />
+
+    <!--Font Awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+
+
+
+     <!--Css -->
+     <link rel="stylesheet" href="./style/shop2.css" type="text/css" >
+
+
+</head>
+<body>
+    <!--include header php-->
+    <header id="header">
+        <div class="strip d-flex justify-content-between px-4 bg-light">
+            <p class="text-black-50 m-0">Ahmad Tea address</p>
+            <div>
+                <a href="#" class="border-right border-left px-3 text-dark ">login</a>
+                <a href="#" class="px-3 border-right text-dark">Whislist</a>
+            </div>
+            
+        </div>
+<!--Navgation-->
+<nav class="navbar navbar-expand-lg navbar-light  color-secondary-bg">
+    <a class="navbar-brand text-white" href="#">Ahmad Tea Shop</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav text-white m-auto ">
+        <li class="nav-item active ">
+          <a class="nav-link text-white" href="#">Teas <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item color-secondary-bg">
+          <a class="nav-link text-white" href="#">Teaware</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Homepage</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown link
+        </span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+      </ul>
+      <form action="#">
+            <a href="#" class="py-2 rounded-pill dark-shade ">
+                <span class="px-1 text-white"><i class="fas fa-shopping-cart"></i></span>
+                <span class="px-4 py-2 rounded-pill text-dark bg-light">0</span>
+            </a>
+
+      </form>
+    </div>
+  </nav>
+  <!--navigation ends-->
+    </header> 
+    <!--main-->
+
+   <!--Product-->
+   <div id="product"class="py-3">
+     <div class="container">
+       <div class="row">
+         <div class="col-sm-6">
+           <img src="./resources/img/Apple Vanilla Crumble.png" class="img-fluid">
+           <div class="form-row pt-4">
+             <div class="col">
+               <button type="submit" class="btn btn-warning form-control">Proceed to buy</button>
+             </div>
+             <div class="col">
+              <button type="submit" class="btn btn-warning form-control">Add to Cart</button>
+             </div>
+             </div>
+           </div>
+            <div class="col-sm-6 py-5">
+               <h5>Apple Tea</h5>
+               <small>Product id=1577</small>
+               <!--Ratings-->
+               <div class="d-flex">
+                <div class="rating text-warning">
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                </div>
+               </div>
+               <!--Ratings ends-->
+               <hr class="m-0">
+               <table class="my-3">
+                  <tr>
+                    <td class="text-danger">
+                      $<span>16</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="col-6">
+                        <div class="qty d-flex">
+                          <h6>Qty</h6>
+                          <button class="qty-up border bg-light"><i class="fas fa-angle-up"></i></button>
+                          <input type="text" class="qty_input border px-2 w-50 bg-light" disabled value="1" placeholder="1">
+                          <button class="qty-down border bg-light"><i class="fas fa-angle-down"></i></button>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+               </table>
+            
+            </div>
+            <div class="col-12 pt-5">
+              <h6 class="font-rubik">Product Description</h6>
+              <hr>
+              <p>Inspired by the crowd-pleasing British pudding, our Apple & Vanilla Crumble dessert tea is everything you’d hope for. Buttery vanilla notes complement juicy apple, while aromatic cinnamon and clove add spicy mulled warmth. It’s a delightfully comforting infusion that offers a lighter indulgence for any sweet tooth.
+
+                For this blend, our Tea Masters recreate the flavours of oven-fresh apple crumble using 100% natural ingredients. Apple is the star of the show, with dried pieces creating a delicious underlying flavour. We then add rosehip, chicory and liquorice for balance and complexity. Orange peel brings out the tanginess of the apple, while cinnamon and clove add a warm spiciness. It’s all topped off with vanilla to bring an indulgent flourish – just like the perfect sugar crumble. With its spiced notes, this comforting infusion is perfect for warming you up on cold days. The mulled flavours sing with an air of festivity, making this a scrumptious Christmassy brew.
+                
+                Our pyramid teabags bring connoisseur and convenience together in style. Busy tea lovers can now enjoy all the refined flavours of luxury herbal tea, with none of the fuss. Our large pyramid bags allow the premium ingredients to properly infuse, bringing you a full-flavoured cup of goodness every time. Watch as the apple chunks and spices infuse into a delicious golden liquor, then breathe in the warming spice aromas. It's the simplest way to enjoy an exceptional fruit infusion in moments. What’s more, the teabags are made from corn starch, so they’re biodegradable, plastic-free and better for the environment.
+                
+                The Great Taste Award judges also loved it, praising it as "an original combination and really delicious". They awarded it one star, adding that it is "very inviting. Mellow and creamy on the palate with soft apple edges. A pleasant cosy drink."
+                
+                You’ll find 15 pyramid teabags in every box of our Apple & Vanilla Crumble, sealed inside so they reach you fresh and full of flavour. We string-tag each bag to make brewing in a cup or pot easy. So whether you’re after a calorie-free alternative to rich puddings, or just looking for a fancier brew, this is a terrific blend to keep in your kitchen. Enjoy steeped with hot water, or add a little milk and sugar to really bring out the hearty, homemade flavours. It’s always hard to say no to a classic English apple crumble, and now you can enjoy it in sin-free sippable form!</p>
+         </div>
+       </div>
+     </div>
+   </div>
+   <!--!Product-->
+
+    <!--Top Sale-->
+    <section id="top-sale">
+      <div class="container py-5">
+        <h4 class="">Top Sale</h4>
+      <hr>
+      <!--Crousel OWL-->
+      <div class="owl-carousel owl theme">
+        <div class="item py-2">
+          <div class="product">
+            <a href="#"><img src="./resources/img/products/Peaches1.png"alt="product1" class="img-fluid poducts"></a>
+            <div class="text-center">
+              <h6>Black Currant</h6>
+              <div class="rating text-warning">
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+              </div>
+              <div class="price py-2">
+                <span>25$</span>
+              </div>
+              <button type="submit" class="btn btn-success">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="item py-2">
+          <div class="product">
+            <a href="#"><img src="./resources/img/Apple Vanilla Crumble.png"alt="product1" class="img-fluid poducts"></a>
+            <div class="text-center">
+              <h6>Apple Vanilla Crumble</h6>
+              <div class="rating text-warning">
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+              </div>
+              <div class="price py-2">
+                <span>25$</span>
+              </div>
+              <button type="submit" class="btn btn-btn btn-success ">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--!Crousel OWL-->
+    </section>
+     <!--Top Sale ends-->
+     
+    <!-- end main-->
+
+   <!--footer-->
+       <footer id="footer" class="bg-dark text-white py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-12">
+              <h4 class="">Ahmad Tea</h4>
+              <p class="font-size-14 font-rale text-white-50">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, deserunt.</p>
+            </div>
+            <div class="col-lg-4 col-12">
+              <h4 class="">Newsletter</h4>
+              <form action="" class="form-row">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Email *">
+                </div>
+                <div class="col">
+                  <button type="submit" class="btn btn-primary mb-2">Subscribe</button>
+                </div>
+              </form>
+            </div>
+            <div class="col-lg-2 col-12">
+              <h4 class="">Information</h4>
+              <div class="d-flex flex-column flex-wrap">
+                <a href="#" class="font-rale font-size-14 text-white-50 pb-1">About Us</a>
+                <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Delivery Information</a>
+                <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Privacy Policy</a>
+                <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Terms & Conditions</a>
+              </div>
+            </div>
+            <div class="col-lg-2 col-12">
+              <h4 class="">Account</h4>
+              <div class="d-flex flex-column flex-wrap">
+                <a href="#" class="font-rale font-size-14 text-white-50 pb-1">My Account</a>
+                <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Order History</a>
+                <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Newsletters</a>
+              </div>
+            </div>
+            <div class="copyright text-center bg-dark text-white py-2">
+              <p class="font-rale font-size-14">&copy; Copyrights 2021. Designed By <a href="#" class="color-second">Sara Abo Shousha</a></p>
+            </div>
+          </div>
+        </div>
+      </footer>
+   <!--end footer-->
+
+
+<!--Boostrap JS CDN-->
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<!-- Owl Carousel Js file -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha256-pTxD+DSzIwmwhOqTFN+DB+nHjO4iAsbgfyFq5K5bcE0=" crossorigin="anonymous"></script>
+
+<!--  isotope plugin cdn  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.js" integrity="sha512-E/yP5UiPXb6VelX+dFLuUD+1IZw/Kz7tMncFTYbtoNSCdRZPFoGN3jZ2p27VUxHEkhbPiLuZhZpVEXxk9wAHCQ==" crossorigin="anonymous"></script>
+<!-- Custom Javascript -->
+<script src="index.js"></script>
+
+</body>
+</html>

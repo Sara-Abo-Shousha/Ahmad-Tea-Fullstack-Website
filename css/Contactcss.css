@@ -1,0 +1,407 @@
+body{
+	background-image:linear-gradient(rgba(27,61,35,0.6),rgba(27,61,35,0.6)),url("../img/tea_3.jpg");
+	background-size:cover;
+	overflow-x: hidden;
+}
+h1
+{
+	text-align:center;
+	padding-top:300px;
+	padding-bottom:200px;
+	color:white;
+	font-size:100px;
+	font-family:sans-serif;
+	animation: fadeIn ease 4s;
+	-webkit-animation: fadeIn ease 4s;
+}
+h2
+{
+	font-family:sans-serif;
+	font-size: 30px;
+	color:white;
+	animation: fadeIn ease 4s;
+	-webkit-animation: fadeIn ease 4s;
+}
+p
+{
+	font-family:sans-serif;
+	font-size: 18px;
+	color:white;
+	animation: fadeIn ease 4s;
+	-webkit-animation: fadeIn ease 4s;
+}
+h3
+{
+	font-family:sans-serif;
+	font-size: 30px;
+	color:limegreen;
+	animation: fadeIn ease 4s;
+	-webkit-animation: fadeIn ease 4s;
+	
+}
+h4
+{
+	font-family:sans-serif;
+	font-size: 20px;
+	color:#c2ffa3;
+	animation: fadeIn ease 4s;
+	-webkit-animation: fadeIn ease 4s;
+}
+a.mail
+{
+	color:#e68f39;
+}
+#Header {
+	 position:fixed;
+	 top:0px;
+	 width:100%;
+	 background-color: white;
+    padding: 20px;
+	 margin:-15px;
+	 z-index:1;
+	 
+}
+
+.logo
+{
+	width:125px;
+	height:67;
+	padding-top:30px;
+	padding-left: 200px;
+}
+
+div#float
+{
+	float:right;
+	position:relative;
+	bottom: 45px;
+	padding-right: 200px;
+}
+
+.menubt
+{
+position:relative;
+	margin-left:20px;
+	margin-right:20px;
+	padding-bottom:10px;
+	text-decoration:none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color:black;
+	font-size: 1.2em;
+}
+#shopbt
+{
+	color:green;
+}
+.menubt:hover {
+    border-bottom: 3px solid;
+    border-bottom-width: 50%;
+    animation: hover;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+	 -webkit-animation: hover;
+	 -webkit-animation-duration: 0.2s;
+	 -webkit-animation-fill-mode: forwards;
+}
+@keyframes hover {
+    from {color: black; border-bottom: 0px solid;}
+    to {color: green; border-bottom: 4px solid;}
+}
+
+@-webkit-keyframes hover {
+   from {color: black; border-bottom: 0px solid;}
+    to {color: green; border-bottom: 4px solid;}
+}
+
+#products
+{
+	position:relative;
+	top:30px;
+}
+
+#end
+{
+	
+	width:100%;
+	background-color:rgb(27,61,35);
+	margin:-20px;
+	padding:50px;
+
+}
+#innerend
+{
+	border-bottom:3px solid white;
+	padding-bottom: 10px;
+}
+#icons
+{
+	float:right;
+	position:relative;
+	top:50px;
+	right:200px;
+}
+#endlogo
+{
+	position:relative;
+}
+span
+{
+
+	position:relative;
+	bottom:20px;
+	left:20px;
+  font-family:sans-serif;
+  color:white;
+}
+.icon
+{
+	padding:5px;
+	width:30px;
+	height:30px;
+}
+
+#start
+{
+	text-align:center;
+	padding-top:80px;
+	padding-bottom:80px;
+	background-color:rgba(48,92,58,0.9);
+	margin-left:-15px;
+	margin-right:-15px;
+}
+.left
+{
+	float:left;
+	background-color:rgba(48,92,58,0.9);
+	border-radius: 5px;
+	padding-top:20px;
+	padding-bottom:110px;
+	padding-left:100px;
+	padding-right:100px;
+	margin-left:auto;
+	margin-top:50px;
+	width:400px;
+}
+.right
+{
+	float:left;
+	background-color:white;
+	border-radius: 5px;
+	padding:20px;
+	text-align:center;
+	margin-top:50px;
+	margin-left:30px;
+	margin-right:auto;
+}
+
+input, select {
+    
+    width:500px;
+	
+    font-family: sans-serif;
+
+    border: none;
+    outline: none;
+   box-sizing: border-box;
+   border: none;
+   border-radius: 2px;
+   padding-top: 10px;
+	padding-bottom:5px;
+   outline: none;
+	
+
+}
+textarea{
+position:relative;
+bottom:60px;
+	resize: none;
+	width:500px;
+	
+    font-family: sans-serif;
+
+   box-sizing: border-box;
+   border: none;
+   border-radius: 2px;
+   padding-top: 10px;
+	padding-bottom:5px;
+}
+input[id=Lname], input[id=firstName]
+{
+	width:225px;
+		
+}
+.custom {
+
+    position: relative;
+    font-size: 14px;
+  padding: 20px;
+  
+  
+}
+.custom input, select, textarea{
+
+    border-radius: 0;
+   
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+     background:
+      linear-gradient(90deg, #185222,#185222) center bottom/0 3px no-repeat,
+      linear-gradient(90deg, #ccc, #ccc) left bottom/100% 3px no-repeat,
+      linear-gradient(90deg, white, white) left bottom/100% no-repeat;
+    transition: background-size 0.3s ease;
+ 
+}
+.custom .placeholder{
+    
+    position: absolute;
+	 font-family:sans-serif;
+    left: 25px;
+    top:25px;
+    transform: translateY(-50%);
+	 
+    color: #666666;
+    transition:
+    top 0.3s ease,
+    color 0.3s ease,
+    font-size 0.3s ease;
+}
+.custom input:valid + .placeholder,
+.custom input:focus + .placeholder{
+
+    top:-3px;
+    font-size: 18px;
+    color: black;
+ 
+}
+
+.custom input:valid,
+.custom input:focus{
+
+    
+    background-size: 100% 3px, 100% 3px, 100%;
+}
+
+select:valid + .placeholder,
+select:focus + .placeholder{
+
+    top:-3px;
+    font-size: 18px;
+    color: black;
+ 
+}
+
+select:valid,
+select:focus{
+
+    
+    background-size: 100% 3px, 100% 3px, 100%;
+}
+
+textarea:valid + .placeholder,
+textarea:focus + .placeholder{
+
+    top:-3px;
+    font-size: 18px;
+    color: black;
+ 
+}
+
+textarea:valid,
+textarea:focus{
+
+    
+    background-size: 100% 3px, 100% 3px, 100%;
+}
+
+div.div1{
+    
+    text-align: center;
+}
+
+h1
+{
+	font-family:sans-serif;
+	font-weight: bold;
+	font-size: 50px;
+	color:white;
+}
+td{
+text-align: center;
+    padding-top: 20px;
+	 padding-bottom: 20px;
+}
+
+fieldset{
+
+	margin-top:50px;
+    text-align: center;
+    border: none;
+    appearance: none;
+}
+table
+{
+	position:relative;
+	bottom:10px;
+	margin:auto;
+}
+#message
+{
+	position:relative;
+	color:black;
+	right:205px;
+	bottom:40px;
+}
+.button {
+	position:relative;
+	bottom:40px;
+  border-radius: 4px;
+  background-color:#e68f39;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  width: 300px;
+  cursor: pointer;
+  margin: 5px;
+}
+#alwayson
+{
+	position:fixed;
+	right:50px;
+	bottom:50px;
+	border-radius: 50%;
+	text-align: center;
+	font-size: 20px;
+	width:50px;
+	height:50px;
+	border: none;
+	cursor: pointer;
+	display:none;
+	animation: fadeIn ease 2s;
+	-webkit-animation: fadeIn ease 2s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+#divide
+{
+	margin-bottom:50px;
+	display: flex;
+}

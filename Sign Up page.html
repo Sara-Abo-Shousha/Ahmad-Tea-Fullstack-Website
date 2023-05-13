@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset= "UTF-8">
+
+    <title>Sign Up</title>
+   
+
+    <link href="css/signup.css" type="text/css" rel="stylesheet" media="all">
+	  <link rel="icon" href="img/logo.jpg"> <!--This logo will appear in the tab beside the title-->
+	 <script src="javascript/signup.js"></script>
+	
+
+</head>
+
+<body>
+<!-- the menu bar-->
+    <div id="Header">
+<div> 
+		<a href="index.html"><img src="img/ahmadtea-logo.png" alt="logo" class="logo"></a>
+	</div>
+	<div id="float">
+		<a href="WhoWeAre.html" class="menubt">WHO WE ARE</a>
+		<a href="ContactUs.html" class="menubt">CONTACT US</a>
+		<a href="Shop.html" class="menubt" id="shopbt">SHOP</a>
+		<a href="#" class="menubt" style="color:#e68f39;">SIGNUP</a><!-- selected button-->
+	</div>
+</div>
+
+<div id="start">
+	<h1>Signup for More!</h1>
+</div>
+    <!-- table to keep the form neat and organized for the sign up-->
+<form action=" " method="GET" onsubmit="alert('Validate your account by clicking the link sent to your inbox')"> 
+    <fieldset >
+        <div class="div2">
+     <table>
+    <tr>       
+        <td>
+            <label class="custom">
+                 <input type="text" id="firstName" name="firstName"  maxlength="15" required><span class="placeholder">First Name: </span> 
+        		</label>
+        </td><!--First name and last name are on the same row-->
+  		<td>
+            <label class="custom">
+                <input  type="text" id="Lname" name="Lname"  maxlength="15" required><span class="placeholder">Last Name: </span> 
+            </label>
+        </td>
+    </tr> 
+    <tr>
+        <td colspan="2"><!--elements take 2 cells merged in order to keep elements centered-->
+            <label class="custom" >
+                <input type="text "id="email" name="email" type="text" required><span class="placeholder">Email:</span>
+            </label>
+        </td> 
+    </tr> 
+    <tr>
+        <td colspan="2">
+           <label class="custom" >
+            	<input type="password" id="psswrd" name="psswrd" maxlength="16" required><span class="placeholder">Password:</span>
+           </label>
+        </td>  
+    </tr>
+    <tr>
+        <td colspan="2">
+            <label class="custom">
+                <input type="password" name="cnfrmpass"  id="cnfrmpass" maxlength="16" required><span class="placeholder">Confirm Password: </span>		   
+            </label>
+        </td>  
+    </tr>   
+</table>
+<p id="message"></p><!--placeholder p to incert javascript text-->
+<div class="div1">
+		  <input id="submit" type="submit" class="button" value="Submit" onclick="ConfrimPassword(), PassLength();">
+</div>
+    </fieldset>
+</form>
+</div>
+</body>
+</html>
+

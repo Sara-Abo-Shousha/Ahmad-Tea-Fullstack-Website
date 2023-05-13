@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset= "UTF-8">
+
+    <title> Check Our Shop  </title>
+
+        
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/shop.css" type="text/css" rel="stylesheet" media="all">
+
+    <link rel="icon" href="img/logo.jpg"><!--This logo will appear in the tab beside the title-->
+    <script src="javascript/index_script.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+
+    <div id="Header">    <!--This Div is the structure of the main bar-->
+        <div> 
+        <a href="index.html">
+            <img src="img/ahmadtea-logo.png" alt="logo" class="logo">
+        </a>
+    </div>
+    <div id="float">
+        <a href="WhoWeAre.html" class="menubt">
+            WHO WE ARE
+        </a>
+        <a href="ContactUs.html" class="menubt">
+            CONTACT US
+        </a>
+        <a href="#" class="menubt" id="shopbt" style="color:#e68f39;">  <!--When we are on a certain page its corresponding button in the menue bar will turn orange-->
+            SHOP
+        </a>
+        <a href="Sign.php" class="menubt" >
+            SIGNUP
+        </a>
+    </div>
+    </div>
+    
+<div class="header2"></div> 
+
+<h1 id="h11">Bestselling Teas</h1>
+
+<p id="pp">Here’s a selection of our bestselling blends. Discover what teas our customers are currently drinking and enjoying - perhaps at this very minute. 
+    <br>After all, over 30 million cups of Ahmad Tea are enjoyed around the world every day.</p>
+
+
+<table cellpadding="15"> <!--All the products,titles, and rating are filled in this table-->
+	 <form method="GET">
+	<input type="text" placeholder="Search.." name="search" id="srch"> <!-- search bar-->
+</form>
+    <tr>
+
+        <td>
+                
+                <div class="conatiner">  <!--The Container class will embrace the overlay transition when hoover-->
+
+                <img src="img/chai-spice.jpg" alt="chai-spice"  class="image">
+
+                <a href="Sign Up page.html">
+                <button type="button" class="btn">Add to Basket</button>
+            </a> <!--This button will direct the user to the sign up page -->
+                
+                <div class="overlay">
+                    <div class="text">Our version uses aromatic spices to create a soothing contrast to our favourite Indian black tea</div>
+                   <!--the overlay class will cover the image with low opacity green and display the text div and button when hoovered -->
+                </div>
+                </div>
+            </td>
+            <td>
+                <!--this is repeated for the whole table-->
+                <div class="conatiner">
+                    <img src="img/earl-grey.jpg" alt="earl-grey"  class="image">
+                    
+                    <a href="Sign Up page.html">
+                        <button type="button" class="btn">Add to Basket</button>
+                    </a>
+                <div class="overlay">
+                    <div class="text">Our Earl Grey is a </br>quintessentially English brew,</br>perfect for those seeking an elegant,
+
+                    sophisticated cuppa</div>
+                    
+                </div>
+                </div>
+            </td>
+            <td>
+                
+                <div class="conatiner">
+                    <img src="img/special-blend-gift.jpg" alt="special blend gift"  class="image">
+                   
+                    <a href="Sign Up page.html">
+                        <button type="button" class="btn">Add to Basket</button>
+                    </a>
+                
+                <div class="overlay">
+                    <div class="text">For more than 30 years, we've delivered our 
+                        Special Blend to customers around the world, offering tea lovers a refreshing drinking experience</div>
+                    
+                </div>
+                </div>
+            </td>
+    
+            </tr>
+
+            <tr>
+                <td>
+                   
+                    <p class="title">Chai Spice
+                        
+                    </p>
+
+                </td>
+                <td>
+                    <p class="title">Earl Grey Tea</p>
+
+                </td>
+                <td>
+                    <p class="title">Special Blend</p>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                 <!--The stars rates are linked from an online library to -->
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span> <!--The checked class diplay checked stars-->
+                         
+                          
+                        
+                </td>
+
+                <td>
+                 
+                    <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        
+                    
+            </td>
+            
+            
+            <td>
+                 
+                <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                
+        </td>
+
+            </tr>
+            <tr>
+                <td>
+                        
+                        <div class="conatiner">
+                        <img src="img/lemon-_-lime-twist.jpg" alt="chai spice"  class="image">
+                        
+                        <a href="Sign Up page.html">
+                            <button type="button" class="btn">Add to Basket</button>
+                        </a>
+                        
+                        <div class="overlay">
+                            <div class="text"> Just as the name suggest add  satisfying citrus twist to our full-flavoured black tea blend.</div>
+                            
+                        </div>
+                        </div>
+                    </td>
+                    <td>
+                        
+                        <div class="conatiner">
+                        <img src="img/jasmine-romance.jpg" alt="special blend gift"  class="image">
+                        <a href="Sign Up page.html">
+                            <button type="button" class="btn">Add to Basket</button>
+                        </a>
+                        <div class="overlay">
+                            <div class="text"> Infusing specially selected Chinese green tea with pure jasmine blossoms, 
+                                this fragrant botanical brew soothes and transports with its exotic charms.</div>
+                            
+                        </div>
+                        </div>
+                    </td>
+                    <td>
+                        
+                        <div class="conatiner">
+                        <img src="img/apple-_-vanilla-crumble.jpg" alt="earl grey"  class="image">
+                        <a href="Sign Up page.html">
+                            <button type="button" class="btn">Add to Basket</button>
+                        </a>
+                        
+                        <div class="overlay">
+                            <div class="text">Inspired by the crowd-pleasing British pudding, 
+                                our Apple & Vanilla Crumble dessert tea is everything you’d hope for</div>
+                            
+                        </div>
+                        </div>
+                    </td>
+                    
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="title">Lemon & Spice</p>
+        
+                        </td>
+
+                        <td>
+                            <p class="title">Jasmin Romance</p>
+        
+                        </td>
+                        
+                        <td>
+                            <p class="title">Apple and Vabilla Crumble</p>
+        
+                        </td>
+                        <tr>
+                            <td>
+                             
+                                    
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                     
+                                      
+                                    
+                            </td>
+            
+                            <td>
+                             
+                                <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                  
+                                
+                        </td>
+                        
+                        
+                        <td>
+                             
+                            <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                
+                            
+                    </td>
+            
+                        </tr>
+
+
+                        
+
+                    </tr>
+                    <tr>
+                        <td>
+                                
+                                <div class="conatiner">
+                                <img src="img/jasmine-green-tea.jpg" alt="lemon lime twist"  class="image">
+                                <a href="Sign Up page.html ">
+                                    <button type="button" class="btn">Add to Basket</button>
+                                </a>
+                                
+                                <div class="overlay">
+                                    <div class="text">For a cup of exotic elegance, look no further than our premium loose
+                                         leaf Jasmine Green Tea</div>
+                                    
+                                </div>
+                                </div>
+                            </td>
+                            <td>
+                                
+                                <div class="conatiner">
+                                <img src="img/mixed-berries-_-hibiscus.jpg" alt="chai-spice"  class="image">
+                                <a href="Sign Up page.html">
+                                    <button type="button" class="btn">Add to Basket</button>
+                                </a>
+                                
+                                <div class="overlay">
+                                    <div class="text">An intensely fruity herbal tea with a bright cherry-red colour, 
+                                        it will revitalise your spirits from the first sip to the last.</div>
+                                    
+                                </div>
+                                </div>
+                            </td>
+                            <td>
+                                
+                                <div class="conatiner">
+                                <img src="img/camomile_-honey-vanilla-.jpg" alt="chai-spice"  class="image">
+                                <a href="Sign Up page.html">
+                                    <button type="button" class="btn">Add to Basket</button>
+                                </a>
+                                
+                                <div class="overlay">
+                                    <div class="text">Like bees around wild camomile flowers, dip into a moment of bliss with 
+                                        every sip of our Camomile, Honey & Vanilla tea.</div>
+                                    
+                                </div>
+                                </div>
+                            </td>
+                            
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p class="title">Jasmin Green Tea</p>
+                
+                                </td>
+        
+                                <td>
+                                    <p class="title">Mixed Berries and Hibiscus</p>
+                
+                                </td>
+                                
+                                <td>
+                                    <p class="title">Camomile Honey Vanilla</p>
+                
+                                </td>
+        
+        
+                                
+        
+                            </tr>
+                            <tr>
+                                <td>
+                                 
+                                        
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                         
+                                          
+                                        
+                                </td>
+                
+                                <td>
+                                 
+                                    <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                      
+                                    
+                            </td>
+                            
+                            
+                            <td>
+                                 
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    
+                                
+                        </td>
+                
+                            </tr>
+                            <tr>
+                                <td>
+                                        
+                                        <div class="conatiner">
+                                        <img src="img/assam.jpg" alt="chai-spice"  class="image">
+                                        <a href="Sign Up page.html">
+                                            <button type="button" class="btn">Add to Basket</button>
+                                        </a>
+                                        
+                                        <div class="overlay">
+                                            <div class="text">With its distinctly rich and malty flavour, 
+                                                you’ll taste it in every good English Breakfast blend</div>
+                                            
+                                        </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        
+                                        <div class="conatiner">
+                                        <img src="img/vanilla-tranquility.jpg" alt="chai-spice"  class="image">
+                                        <a href="Sign Up page.html">
+                                            <button type="button" class="btn">Add to Basket</button>
+                                        </a>
+                                        
+                                        
+                                        <div class="overlay">
+                                            <div class="text">One of our most sophisticated blends; Vanilla Tranquillity is a luxuriously comforting brew
+                                                 </div>
+                                            
+                                        </div>
+                                        </div>
+                                    </td>
+                                   
+                         </tr>
+
+                         <tr>
+                            <td>
+                                <p class="title">Assam Tea</p>
+            
+                            </td>
+                            <td>
+                                <p class="title">Vanilla Tranquillity</p>
+            
+                            </td>
+                         </tr>
+                         <tr>
+                            <td>
+                             
+                                    
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                  
+                                      
+                                    
+                            </td>
+            
+                            <td>
+                             
+                                <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                              
+                                  
+                                
+                        </td>
+                        
+                        
+                    
+            
+                        </tr>
+            </table>
+			<div id="end"><!--This div is for the last section in the webpage-->
+
+<div id="innerend">
+<img src="img/ahmadtea-logo.png" alt="logo" class="logo" id="endlogo">
+<span>© 2020 Ahmad Tea.</span> <!--For copyrights-->
+<div id="icons"><!--This div contains the icons of each account for the ahmad tea company on social media-->
+<a href="https://www.facebook.com/AhmadTea/">
+<img src="img/icons/facebook.svg" class="icon">
+</a>
+<a href="https://www.instagram.com/ahmadtea/">
+<img src="img/icons/insta.svg" class="icon">
+</a>
+<a href="https://twitter.com/ahmadteaUK">
+<img src="img/icons/twitter.svg" class="icon">
+</a>
+<a href="https://www.youtube.com/AhmadTeaUK">
+<img src="img/icons/youtube.svg" class="icon">
+</a>
+</div>
+</div>
+        <button id="alwayson" onclick="topFunction()">▲</button> <!--When this button is clicked, it will go back to the top of the webpage-->
+		  </body>
+		  </html>
